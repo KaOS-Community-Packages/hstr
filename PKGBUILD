@@ -1,5 +1,5 @@
 pkgname=hstr
-pkgver=1.21
+pkgver=1.22
 pkgrel=1
 pkgdesc="A command line utility that brings improved BASH command completion from the history. It aims to make completion easier and more efficient than Ctrl-r."
 arch=('x86_64')
@@ -8,7 +8,7 @@ license=('Apache')
 makedepends=('readline' 'ncurses')
 depends=('readline')
 source=(https://github.com/dvorka/$pkgname/archive/${pkgver}.tar.gz)
-md5sums=('c6304f8424fb1b445a4391a60550a042')
+md5sums=('40fa8f6557ffa77b34a5090a866e051a')
 
 build() {
     cd "hstr-$pkgver/dist"
